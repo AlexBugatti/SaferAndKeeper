@@ -57,10 +57,25 @@
                                 </view>
                             </subviews>
                         </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8u-7s-XL0">
+                            <rect key="frame" x="8" y="16" width="50" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="3gJ-LJ-Gfq"/>
+                                <constraint firstAttribute="height" constant="36" id="EbY-oR-eDa"/>
+                            </constraints>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </state>
+                            <connections>
+                                <action selector="onDidCancel:" destination="-1" eventType="touchUpInside" id="ROi-4k-E5T"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
+                        <constraint firstItem="H8u-7s-XL0" firstAttribute="top" secondItem="G2K-Vu-vQH" secondAttribute="top" constant="16" id="K0U-56-q5L"/>
                         <constraint firstItem="PCR-AH-ncE" firstAttribute="centerY" secondItem="G2K-Vu-vQH" secondAttribute="centerY" id="hS4-nU-npz"/>
+                        <constraint firstItem="H8u-7s-XL0" firstAttribute="leading" secondItem="G2K-Vu-vQH" secondAttribute="leading" constant="8" id="lLn-lo-UXT"/>
                         <constraint firstItem="PCR-AH-ncE" firstAttribute="centerX" secondItem="G2K-Vu-vQH" secondAttribute="centerX" id="nFJ-z3-2mv"/>
                     </constraints>
                 </view>

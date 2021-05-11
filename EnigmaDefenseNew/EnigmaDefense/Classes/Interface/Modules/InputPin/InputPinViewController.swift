@@ -109,6 +109,9 @@ final class InputPinViewController: UIViewController {
         }
     }
     
+    @IBAction func onDidCancel(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
     
     private func authInput() {
         clearDots()
