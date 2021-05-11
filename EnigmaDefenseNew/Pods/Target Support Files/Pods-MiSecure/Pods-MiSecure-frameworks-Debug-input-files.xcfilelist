@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-MiSecure/Pods-MiSecure-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BottomPopup/BottomPopup.framework
+${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework
+${BUILT_PRODUCTS_DIR}/SwipeMenuViewController/SwipeMenuViewController.framework

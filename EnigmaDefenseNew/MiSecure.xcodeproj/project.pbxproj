@@ -1,0 +1,1084 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11090AAB263AF72A00AA5302 /* CommonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11090AAA263AF72A00AA5302 /* CommonViewController.swift */; };
+		11209299262D85CA003F6BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11209298262D85CA003F6BFB /* AppDelegate.swift */; };
+		1120929D262D85CA003F6BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1120929C262D85CA003F6BFB /* ViewController.swift */; };
+		112092A0262D85CA003F6BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1120929E262D85CA003F6BFB /* Main.storyboard */; };
+		112092A2262D85CB003F6BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112092A1262D85CB003F6BFB /* Assets.xcassets */; };
+		112092A5262D85CB003F6BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112092A3262D85CB003F6BFB /* LaunchScreen.storyboard */; };
+		112092B8262D88D2003F6BFB /* Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112092B7262D88D2003F6BFB /* Pallete.swift */; };
+		112092BC262D8A08003F6BFB /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112092BB262D8A08003F6BFB /* Extension+UIColor.swift */; };
+		112092C0262D8B56003F6BFB /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112092BF262D8B56003F6BFB /* MainController.swift */; };
+		114EC29F263B30600037C985 /* SpeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114EC29E263B30600037C985 /* SpeedService.swift */; };
+		114EC2A5263B3D560037C985 /* Extension+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114EC2A4263B3D560037C985 /* Extension+Double.swift */; };
+		11B6BE222633F4CA00FBCED1 /* VPNManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6BE212633F4CA00FBCED1 /* VPNManager.swift */; };
+		11B6BE282633F4FD00FBCED1 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6BE272633F4FD00FBCED1 /* Observer.swift */; };
+		11B6BE2C2633F53800FBCED1 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6BE2B2633F53800FBCED1 /* Configuration.swift */; };
+		11B6BE302633F58000FBCED1 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6BE2F2633F58000FBCED1 /* KeychainWrapper.swift */; };
+		11B6BE342633F5CE00FBCED1 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6BE332633F5CD00FBCED1 /* KeychainItemAccessibility.swift */; };
+		11C03DB1262DC4490098FEFE /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03DB0262DC4490098FEFE /* MenuCell.swift */; };
+		11C03DB5262DC92B0098FEFE /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03DB4262DC92B0098FEFE /* MenuItem.swift */; };
+		11C03DB8262DD9470098FEFE /* Extension+NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03DB7262DD9470098FEFE /* Extension+NSObject.swift */; };
+		11C03DBC262DDEA00098FEFE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03DBB262DDEA00098FEFE /* SettingsViewController.swift */; };
+		11C03DC1262DDF8D0098FEFE /* ContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03DC0262DDF8D0098FEFE /* ContainerCell.swift */; };
+		11C03DC6262DE0D10098FEFE /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03DC5262DE0D10098FEFE /* SwitchView.swift */; };
+		11C03DCB262EAF2E0098FEFE /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03DCA262EAF2E0098FEFE /* NavigationBar.swift */; };
+		11C03DCF262EB5010098FEFE /* SettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03DCE262EB5010098FEFE /* SettingItem.swift */; };
+		11C03DD3262EB5610098FEFE /* SettingsStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03DD2262EB5610098FEFE /* SettingsStorageService.swift */; };
+		11C03DD8262F18970098FEFE /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03DD6262F18970098FEFE /* ContentCell.swift */; };
+		11C03DD9262F18970098FEFE /* ContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C03DD7262F18970098FEFE /* ContentCell.xib */; };
+		11C03DDD262F65C00098FEFE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03DDC262F65C00098FEFE /* DetailView.swift */; };
+		11C03DE2262F6C0C0098FEFE /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03DE1262F6C0C0098FEFE /* FilterViewController.swift */; };
+		11C03DED262F7A4F0098FEFE /* CountriesBottomPopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03DEB262F7A4F0098FEFE /* CountriesBottomPopupController.swift */; };
+		11C03DEE262F7A4F0098FEFE /* CountriesBottomPopupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C03DEC262F7A4F0098FEFE /* CountriesBottomPopupController.xib */; };
+		11C03DF2263016AE0098FEFE /* Extension+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03DF1263016AE0098FEFE /* Extension+Storyboard.swift */; };
+		11C03DF7263017030098FEFE /* VPNConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03DF6263017030098FEFE /* VPNConnectView.swift */; };
+		11C03DFB263017150098FEFE /* VPNConnectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C03DFA263017150098FEFE /* VPNConnectView.xib */; };
+		11C03DFF2630303A0098FEFE /* VPNButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03DFE2630303A0098FEFE /* VPNButtonView.swift */; };
+		11C03E03263030460098FEFE /* VPNButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C03E02263030460098FEFE /* VPNButtonView.xib */; };
+		11C03E07263032280098FEFE /* VPNCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03E06263032280098FEFE /* VPNCountry.swift */; };
+		11C03E0C263036C70098FEFE /* VPNCountriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03E0B263036C70098FEFE /* VPNCountriesController.swift */; };
+		11C03E1226303B660098FEFE /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C03E1026303B660098FEFE /* CountryCell.swift */; };
+		11C03E1326303B660098FEFE /* CountryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C03E1126303B660098FEFE /* CountryCell.xib */; };
+		11C3461F262D969C005B81BE /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C3461E262D969C005B81BE /* Layout.swift */; };
+		11C34623262DA161005B81BE /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C34622262DA161005B81BE /* SegmentView.swift */; };
+		11C34629262DA6FD005B81BE /* VPNController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C34627262DA6FD005B81BE /* VPNController.swift */; };
+		11C3462A262DA6FD005B81BE /* VPNController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C34628262DA6FD005B81BE /* VPNController.xib */; };
+		11C34630262DA71C005B81BE /* AdBlockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C3462E262DA71C005B81BE /* AdBlockController.swift */; };
+		11C34631262DA71C005B81BE /* AdBlockController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C3462F262DA71C005B81BE /* AdBlockController.xib */; };
+		11C34642262DB323005B81BE /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C34641262DB323005B81BE /* MenuController.swift */; };
+		11CBEBAE2632C57B003165F2 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 11CBEBAD2632C57B003165F2 /* blockerList.json */; };
+		11CBEBB02632C57B003165F2 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CBEBAF2632C57B003165F2 /* ContentBlockerRequestHandler.swift */; };
+		11CBEBB42632C57B003165F2 /* MiSecureAdBlock.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 11CBEBAB2632C57B003165F2 /* MiSecureAdBlock.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		11CBEBD02632CC68003165F2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CBEBCF2632CC68003165F2 /* Constants.swift */; };
+		11CBEBD62632CD00003165F2 /* AdBlockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CBEBD52632CD00003165F2 /* AdBlockService.swift */; };
+		11CBEBDB2632F8CE003165F2 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CBEBDA2632F8CE003165F2 /* NetworkExtension.framework */; };
+		11D6D32226487E5900D8140E /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D6D32026487E5900D8140E /* PasswordsViewController.swift */; };
+		11D6D32326487E5900D8140E /* PasswordsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D6D32126487E5900D8140E /* PasswordsViewController.xib */; };
+		11D6D327264883AD00D8140E /* PasswordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D6D325264883AD00D8140E /* PasswordsCell.swift */; };
+		11D6D328264883AD00D8140E /* PasswordsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D6D326264883AD00D8140E /* PasswordsCell.xib */; };
+		11D6D32B264884B000D8140E /* PasswordStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D6D32A264884B000D8140E /* PasswordStorage.swift */; };
+		11E0D8FD264AC2D6008331AA /* InputPinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E0D8FB264AC2D6008331AA /* InputPinViewController.xib */; };
+		11E0D8FE264AC2D6008331AA /* InputPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E0D8FC264AC2D6008331AA /* InputPinViewController.swift */; };
+		11E0D900264AC316008331AA /* PinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E0D8FF264AC316008331AA /* PinService.swift */; };
+		11E0D902264AC33A008331AA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E0D901264AC33A008331AA /* String+Extension.swift */; };
+		8A5047DFDBCCA3EA4E82838C /* Pods_MiSecure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B9F472999559F4675C71A1 /* Pods_MiSecure.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11CBEBB22632C57B003165F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1120928D262D85CA003F6BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11CBEBAA2632C57B003165F2;
+			remoteInfo = EnigmaDefenseAdBlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11CBEBB52632C57B003165F2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				11CBEBB42632C57B003165F2 /* MiSecureAdBlock.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03B9F472999559F4675C71A1 /* Pods_MiSecure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiSecure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11090AAA263AF72A00AA5302 /* CommonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewController.swift; sourceTree = "<group>"; };
+		11209295262D85CA003F6BFB /* MiSecure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiSecure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11209298262D85CA003F6BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1120929C262D85CA003F6BFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1120929F262D85CA003F6BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		112092A1262D85CB003F6BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		112092A4262D85CB003F6BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		112092A6262D85CB003F6BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112092B7262D88D2003F6BFB /* Pallete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pallete.swift; sourceTree = "<group>"; };
+		112092BB262D8A08003F6BFB /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		112092BF262D8B56003F6BFB /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		114EC29E263B30600037C985 /* SpeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedService.swift; sourceTree = "<group>"; };
+		114EC2A4263B3D560037C985 /* Extension+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Double.swift"; sourceTree = "<group>"; };
+		11B6BE212633F4CA00FBCED1 /* VPNManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNManager.swift; sourceTree = "<group>"; };
+		11B6BE272633F4FD00FBCED1 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		11B6BE2B2633F53800FBCED1 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		11B6BE2F2633F58000FBCED1 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		11B6BE332633F5CD00FBCED1 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		11C03DB0262DC4490098FEFE /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		11C03DB4262DC92B0098FEFE /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		11C03DB7262DD9470098FEFE /* Extension+NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+NSObject.swift"; sourceTree = "<group>"; };
+		11C03DBB262DDEA00098FEFE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		11C03DC0262DDF8D0098FEFE /* ContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerCell.swift; sourceTree = "<group>"; };
+		11C03DC5262DE0D10098FEFE /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
+		11C03DCA262EAF2E0098FEFE /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		11C03DCE262EB5010098FEFE /* SettingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingItem.swift; sourceTree = "<group>"; };
+		11C03DD2262EB5610098FEFE /* SettingsStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStorageService.swift; sourceTree = "<group>"; };
+		11C03DD6262F18970098FEFE /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		11C03DD7262F18970098FEFE /* ContentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentCell.xib; sourceTree = "<group>"; };
+		11C03DDC262F65C00098FEFE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		11C03DE1262F6C0C0098FEFE /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		11C03DEB262F7A4F0098FEFE /* CountriesBottomPopupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesBottomPopupController.swift; sourceTree = "<group>"; };
+		11C03DEC262F7A4F0098FEFE /* CountriesBottomPopupController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountriesBottomPopupController.xib; sourceTree = "<group>"; };
+		11C03DF1263016AE0098FEFE /* Extension+Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Storyboard.swift"; sourceTree = "<group>"; };
+		11C03DF6263017030098FEFE /* VPNConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNConnectView.swift; sourceTree = "<group>"; };
+		11C03DFA263017150098FEFE /* VPNConnectView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VPNConnectView.xib; sourceTree = "<group>"; };
+		11C03DFE2630303A0098FEFE /* VPNButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNButtonView.swift; sourceTree = "<group>"; };
+		11C03E02263030460098FEFE /* VPNButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VPNButtonView.xib; sourceTree = "<group>"; };
+		11C03E06263032280098FEFE /* VPNCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNCountry.swift; sourceTree = "<group>"; };
+		11C03E0B263036C70098FEFE /* VPNCountriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNCountriesController.swift; sourceTree = "<group>"; };
+		11C03E1026303B660098FEFE /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		11C03E1126303B660098FEFE /* CountryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryCell.xib; sourceTree = "<group>"; };
+		11C3461E262D969C005B81BE /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		11C34622262DA161005B81BE /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
+		11C34627262DA6FD005B81BE /* VPNController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNController.swift; sourceTree = "<group>"; };
+		11C34628262DA6FD005B81BE /* VPNController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VPNController.xib; sourceTree = "<group>"; };
+		11C3462E262DA71C005B81BE /* AdBlockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBlockController.swift; sourceTree = "<group>"; };
+		11C3462F262DA71C005B81BE /* AdBlockController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdBlockController.xib; sourceTree = "<group>"; };
+		11C34641262DB323005B81BE /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		11CBEBAB2632C57B003165F2 /* MiSecureAdBlock.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MiSecureAdBlock.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		11CBEBAD2632C57B003165F2 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		11CBEBAF2632C57B003165F2 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		11CBEBB12632C57B003165F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11CBEBBD2632C5E3003165F2 /* EnigmaDefenseAdBlock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EnigmaDefenseAdBlock.entitlements; sourceTree = "<group>"; };
+		11CBEBCF2632CC68003165F2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		11CBEBD52632CD00003165F2 /* AdBlockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBlockService.swift; sourceTree = "<group>"; };
+		11CBEBD92632F8CD003165F2 /* EnigmaDefense.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EnigmaDefense.entitlements; sourceTree = "<group>"; };
+		11CBEBDA2632F8CE003165F2 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		11D6D32026487E5900D8140E /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		11D6D32126487E5900D8140E /* PasswordsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordsViewController.xib; sourceTree = "<group>"; };
+		11D6D325264883AD00D8140E /* PasswordsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsCell.swift; sourceTree = "<group>"; };
+		11D6D326264883AD00D8140E /* PasswordsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordsCell.xib; sourceTree = "<group>"; };
+		11D6D32A264884B000D8140E /* PasswordStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStorage.swift; sourceTree = "<group>"; };
+		11E0D8FB264AC2D6008331AA /* InputPinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputPinViewController.xib; sourceTree = "<group>"; };
+		11E0D8FC264AC2D6008331AA /* InputPinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputPinViewController.swift; sourceTree = "<group>"; };
+		11E0D8FF264AC316008331AA /* PinService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinService.swift; sourceTree = "<group>"; };
+		11E0D901264AC33A008331AA /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		192CC0DCF78B133F74C8BDBF /* Pods-MiSecure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiSecure.release.xcconfig"; path = "Target Support Files/Pods-MiSecure/Pods-MiSecure.release.xcconfig"; sourceTree = "<group>"; };
+		2F7D4C6BE1E07E4394152C12 /* Pods-MiSecure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiSecure.debug.xcconfig"; path = "Target Support Files/Pods-MiSecure/Pods-MiSecure.debug.xcconfig"; sourceTree = "<group>"; };
+		484E822946703A000A65B88C /* Pods-EnigmaDefense.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnigmaDefense.release.xcconfig"; path = "Target Support Files/Pods-EnigmaDefense/Pods-EnigmaDefense.release.xcconfig"; sourceTree = "<group>"; };
+		BE3768BCC682AA827CB26533 /* Pods-EnigmaDefense.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnigmaDefense.debug.xcconfig"; path = "Target Support Files/Pods-EnigmaDefense/Pods-EnigmaDefense.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11209292262D85CA003F6BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CBEBDB2632F8CE003165F2 /* NetworkExtension.framework in Frameworks */,
+				8A5047DFDBCCA3EA4E82838C /* Pods_MiSecure.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11CBEBA82632C57B003165F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1120928C262D85CA003F6BFB = {
+			isa = PBXGroup;
+			children = (
+				11209297262D85CA003F6BFB /* EnigmaDefense */,
+				11CBEBAC2632C57B003165F2 /* EnigmaDefenseAdBlock */,
+				11209296262D85CA003F6BFB /* Products */,
+				F47A99F3E56B6EE40922E979 /* Pods */,
+				C3F9C293A8C0185FEF0BD6E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11209296262D85CA003F6BFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11209295262D85CA003F6BFB /* MiSecure.app */,
+				11CBEBAB2632C57B003165F2 /* MiSecureAdBlock.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11209297262D85CA003F6BFB /* EnigmaDefense */ = {
+			isa = PBXGroup;
+			children = (
+				11CBEBD92632F8CD003165F2 /* EnigmaDefense.entitlements */,
+				11C3461C262D9602005B81BE /* Resources */,
+				112092B0262D8744003F6BFB /* SupportFiles */,
+				112092AF262D8737003F6BFB /* Classes */,
+				112092A6262D85CB003F6BFB /* Info.plist */,
+			);
+			path = EnigmaDefense;
+			sourceTree = "<group>";
+		};
+		112092AF262D8737003F6BFB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				11C03DD1262EB5380098FEFE /* Services */,
+				112092B4262D8784003F6BFB /* Models */,
+				112092B3262D8777003F6BFB /* Extensions */,
+				112092B2262D876F003F6BFB /* Interface */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		112092B0262D8744003F6BFB /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				11209298262D85CA003F6BFB /* AppDelegate.swift */,
+				1120929E262D85CA003F6BFB /* Main.storyboard */,
+				112092A1262D85CB003F6BFB /* Assets.xcassets */,
+				112092A3262D85CB003F6BFB /* LaunchScreen.storyboard */,
+				112092B7262D88D2003F6BFB /* Pallete.swift */,
+				11CBEBCF2632CC68003165F2 /* Constants.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		112092B2262D876F003F6BFB /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				112092B6262D879C003F6BFB /* Common */,
+				112092B5262D8792003F6BFB /* Modules */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		112092B3262D8777003F6BFB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				11E0D901264AC33A008331AA /* String+Extension.swift */,
+				112092BB262D8A08003F6BFB /* Extension+UIColor.swift */,
+				114EC2A4263B3D560037C985 /* Extension+Double.swift */,
+				11C03DB7262DD9470098FEFE /* Extension+NSObject.swift */,
+				11C03DF1263016AE0098FEFE /* Extension+Storyboard.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		112092B4262D8784003F6BFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11C03E05263031CE0098FEFE /* VPN */,
+				11C03DB4262DC92B0098FEFE /* MenuItem.swift */,
+				11C03DCE262EB5010098FEFE /* SettingItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		112092B5262D8792003F6BFB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				11E0D8FA264AC2D6008331AA /* InputPin */,
+				11D6D31F26487E3A00D8140E /* Passwords */,
+				11C03E0A263036620098FEFE /* VPNCountries */,
+				11C03DEA262F7A190098FEFE /* CountriesPopup */,
+				11C03DE0262F6BE80098FEFE /* Filters */,
+				11C03DBA262DDE790098FEFE /* Settings */,
+				11C34640262DB23B005B81BE /* Menu */,
+				11C3462D262DA703005B81BE /* AdBlock */,
+				11C34626262DA6E4005B81BE /* VPN */,
+				112092BE262D8B1B003F6BFB /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		112092B6262D879C003F6BFB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				11C03DFD263030160098FEFE /* VPNButtonView */,
+				11C03DF5263016E30098FEFE /* VPNConnectView */,
+				11C03DDB262F65A50098FEFE /* DetailView */,
+				11C03DC9262EAED40098FEFE /* NavigationBar */,
+				11C03DC4262DE0B90098FEFE /* SwitchView */,
+				11C03DBF262DDEF60098FEFE /* ContainerCell */,
+				11C34645262DB38B005B81BE /* ViewController */,
+				11C34621262DA13E005B81BE /* SegmentView */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		112092BE262D8B1B003F6BFB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				112092BF262D8B56003F6BFB /* MainController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		114EC29D263B30430037C985 /* SpeedService */ = {
+			isa = PBXGroup;
+			children = (
+				114EC29E263B30600037C985 /* SpeedService.swift */,
+			);
+			path = SpeedService;
+			sourceTree = "<group>";
+		};
+		11B6BE202633F4AD00FBCED1 /* VPNManager */ = {
+			isa = PBXGroup;
+			children = (
+				11B6BE332633F5CD00FBCED1 /* KeychainItemAccessibility.swift */,
+				11B6BE2F2633F58000FBCED1 /* KeychainWrapper.swift */,
+				11B6BE212633F4CA00FBCED1 /* VPNManager.swift */,
+				11B6BE2B2633F53800FBCED1 /* Configuration.swift */,
+				11B6BE272633F4FD00FBCED1 /* Observer.swift */,
+			);
+			path = VPNManager;
+			sourceTree = "<group>";
+		};
+		11C03DAF262DC4050098FEFE /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				11C03DB0262DC4490098FEFE /* MenuCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		11C03DBA262DDE790098FEFE /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				11C03DBB262DDEA00098FEFE /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		11C03DBF262DDEF60098FEFE /* ContainerCell */ = {
+			isa = PBXGroup;
+			children = (
+				11C03DC0262DDF8D0098FEFE /* ContainerCell.swift */,
+				11C03DD6262F18970098FEFE /* ContentCell.swift */,
+				11C03DD7262F18970098FEFE /* ContentCell.xib */,
+			);
+			path = ContainerCell;
+			sourceTree = "<group>";
+		};
+		11C03DC4262DE0B90098FEFE /* SwitchView */ = {
+			isa = PBXGroup;
+			children = (
+				11C03DC5262DE0D10098FEFE /* SwitchView.swift */,
+			);
+			path = SwitchView;
+			sourceTree = "<group>";
+		};
+		11C03DC9262EAED40098FEFE /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				11C03DCA262EAF2E0098FEFE /* NavigationBar.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		11C03DD1262EB5380098FEFE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				11D6D3292648849200D8140E /* PasswordsStorage */,
+				114EC29D263B30430037C985 /* SpeedService */,
+				11B6BE202633F4AD00FBCED1 /* VPNManager */,
+				11CBEBCE2632CC43003165F2 /* AdBlock */,
+				11C03DD2262EB5610098FEFE /* SettingsStorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		11C03DDB262F65A50098FEFE /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				11C03DDC262F65C00098FEFE /* DetailView.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		11C03DE0262F6BE80098FEFE /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				11C03DE1262F6C0C0098FEFE /* FilterViewController.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		11C03DEA262F7A190098FEFE /* CountriesPopup */ = {
+			isa = PBXGroup;
+			children = (
+				11C03E0F26303B470098FEFE /* cells */,
+				11C03DEB262F7A4F0098FEFE /* CountriesBottomPopupController.swift */,
+				11C03DEC262F7A4F0098FEFE /* CountriesBottomPopupController.xib */,
+			);
+			path = CountriesPopup;
+			sourceTree = "<group>";
+		};
+		11C03DF5263016E30098FEFE /* VPNConnectView */ = {
+			isa = PBXGroup;
+			children = (
+				11C03DF6263017030098FEFE /* VPNConnectView.swift */,
+				11C03DFA263017150098FEFE /* VPNConnectView.xib */,
+			);
+			path = VPNConnectView;
+			sourceTree = "<group>";
+		};
+		11C03DFD263030160098FEFE /* VPNButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				11C03DFE2630303A0098FEFE /* VPNButtonView.swift */,
+				11C03E02263030460098FEFE /* VPNButtonView.xib */,
+			);
+			path = VPNButtonView;
+			sourceTree = "<group>";
+		};
+		11C03E05263031CE0098FEFE /* VPN */ = {
+			isa = PBXGroup;
+			children = (
+				11C03E06263032280098FEFE /* VPNCountry.swift */,
+			);
+			path = VPN;
+			sourceTree = "<group>";
+		};
+		11C03E0A263036620098FEFE /* VPNCountries */ = {
+			isa = PBXGroup;
+			children = (
+				11C03E0B263036C70098FEFE /* VPNCountriesController.swift */,
+			);
+			path = VPNCountries;
+			sourceTree = "<group>";
+		};
+		11C03E0F26303B470098FEFE /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				11C03E1026303B660098FEFE /* CountryCell.swift */,
+				11C03E1126303B660098FEFE /* CountryCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		11C3461C262D9602005B81BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11C3461E262D969C005B81BE /* Layout.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		11C34621262DA13E005B81BE /* SegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				11C34622262DA161005B81BE /* SegmentView.swift */,
+			);
+			path = SegmentView;
+			sourceTree = "<group>";
+		};
+		11C34626262DA6E4005B81BE /* VPN */ = {
+			isa = PBXGroup;
+			children = (
+				11C34627262DA6FD005B81BE /* VPNController.swift */,
+				11C34628262DA6FD005B81BE /* VPNController.xib */,
+			);
+			path = VPN;
+			sourceTree = "<group>";
+		};
+		11C3462D262DA703005B81BE /* AdBlock */ = {
+			isa = PBXGroup;
+			children = (
+				11C3462E262DA71C005B81BE /* AdBlockController.swift */,
+				11C3462F262DA71C005B81BE /* AdBlockController.xib */,
+			);
+			path = AdBlock;
+			sourceTree = "<group>";
+		};
+		11C34640262DB23B005B81BE /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				11C03DAF262DC4050098FEFE /* cells */,
+				11C34641262DB323005B81BE /* MenuController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		11C34645262DB38B005B81BE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1120929C262D85CA003F6BFB /* ViewController.swift */,
+				11090AAA263AF72A00AA5302 /* CommonViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		11CBEBAC2632C57B003165F2 /* EnigmaDefenseAdBlock */ = {
+			isa = PBXGroup;
+			children = (
+				11CBEBBD2632C5E3003165F2 /* EnigmaDefenseAdBlock.entitlements */,
+				11CBEBAD2632C57B003165F2 /* blockerList.json */,
+				11CBEBAF2632C57B003165F2 /* ContentBlockerRequestHandler.swift */,
+				11CBEBB12632C57B003165F2 /* Info.plist */,
+			);
+			path = EnigmaDefenseAdBlock;
+			sourceTree = "<group>";
+		};
+		11CBEBCE2632CC43003165F2 /* AdBlock */ = {
+			isa = PBXGroup;
+			children = (
+				11CBEBD52632CD00003165F2 /* AdBlockService.swift */,
+			);
+			path = AdBlock;
+			sourceTree = "<group>";
+		};
+		11D6D31F26487E3A00D8140E /* Passwords */ = {
+			isa = PBXGroup;
+			children = (
+				11D6D3242648836D00D8140E /* Cells */,
+				11D6D32026487E5900D8140E /* PasswordsViewController.swift */,
+				11D6D32126487E5900D8140E /* PasswordsViewController.xib */,
+			);
+			path = Passwords;
+			sourceTree = "<group>";
+		};
+		11D6D3242648836D00D8140E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				11D6D325264883AD00D8140E /* PasswordsCell.swift */,
+				11D6D326264883AD00D8140E /* PasswordsCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		11D6D3292648849200D8140E /* PasswordsStorage */ = {
+			isa = PBXGroup;
+			children = (
+				11D6D32A264884B000D8140E /* PasswordStorage.swift */,
+				11E0D8FF264AC316008331AA /* PinService.swift */,
+			);
+			path = PasswordsStorage;
+			sourceTree = "<group>";
+		};
+		11E0D8FA264AC2D6008331AA /* InputPin */ = {
+			isa = PBXGroup;
+			children = (
+				11E0D8FB264AC2D6008331AA /* InputPinViewController.xib */,
+				11E0D8FC264AC2D6008331AA /* InputPinViewController.swift */,
+			);
+			path = InputPin;
+			sourceTree = "<group>";
+		};
+		C3F9C293A8C0185FEF0BD6E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11CBEBDA2632F8CE003165F2 /* NetworkExtension.framework */,
+				03B9F472999559F4675C71A1 /* Pods_MiSecure.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F47A99F3E56B6EE40922E979 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE3768BCC682AA827CB26533 /* Pods-EnigmaDefense.debug.xcconfig */,
+				484E822946703A000A65B88C /* Pods-EnigmaDefense.release.xcconfig */,
+				2F7D4C6BE1E07E4394152C12 /* Pods-MiSecure.debug.xcconfig */,
+				192CC0DCF78B133F74C8BDBF /* Pods-MiSecure.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11209294262D85CA003F6BFB /* MiSecure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112092A9262D85CB003F6BFB /* Build configuration list for PBXNativeTarget "MiSecure" */;
+			buildPhases = (
+				E14479E8C15926569D6BCD7B /* [CP] Check Pods Manifest.lock */,
+				11209291262D85CA003F6BFB /* Sources */,
+				11209292262D85CA003F6BFB /* Frameworks */,
+				11209293262D85CA003F6BFB /* Resources */,
+				F8C7009006971834E355D055 /* [CP] Embed Pods Frameworks */,
+				11CBEBB52632C57B003165F2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11CBEBB32632C57B003165F2 /* PBXTargetDependency */,
+			);
+			name = MiSecure;
+			productName = EnigmaDefense;
+			productReference = 11209295262D85CA003F6BFB /* MiSecure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11CBEBAA2632C57B003165F2 /* MiSecureAdBlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11CBEBB82632C57B003165F2 /* Build configuration list for PBXNativeTarget "MiSecureAdBlock" */;
+			buildPhases = (
+				11CBEBA72632C57B003165F2 /* Sources */,
+				11CBEBA82632C57B003165F2 /* Frameworks */,
+				11CBEBA92632C57B003165F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiSecureAdBlock;
+			productName = EnigmaDefenseAdBlock;
+			productReference = 11CBEBAB2632C57B003165F2 /* MiSecureAdBlock.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1120928D262D85CA003F6BFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					11209294262D85CA003F6BFB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					11CBEBAA2632C57B003165F2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 11209290262D85CA003F6BFB /* Build configuration list for PBXProject "MiSecure" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1120928C262D85CA003F6BFB;
+			productRefGroup = 11209296262D85CA003F6BFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11209294262D85CA003F6BFB /* MiSecure */,
+				11CBEBAA2632C57B003165F2 /* MiSecureAdBlock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11209293262D85CA003F6BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C03E03263030460098FEFE /* VPNButtonView.xib in Resources */,
+				112092A5262D85CB003F6BFB /* LaunchScreen.storyboard in Resources */,
+				112092A2262D85CB003F6BFB /* Assets.xcassets in Resources */,
+				11C03E1326303B660098FEFE /* CountryCell.xib in Resources */,
+				11D6D328264883AD00D8140E /* PasswordsCell.xib in Resources */,
+				11C3462A262DA6FD005B81BE /* VPNController.xib in Resources */,
+				11C03DEE262F7A4F0098FEFE /* CountriesBottomPopupController.xib in Resources */,
+				11E0D8FD264AC2D6008331AA /* InputPinViewController.xib in Resources */,
+				11D6D32326487E5900D8140E /* PasswordsViewController.xib in Resources */,
+				11C03DFB263017150098FEFE /* VPNConnectView.xib in Resources */,
+				112092A0262D85CA003F6BFB /* Main.storyboard in Resources */,
+				11C34631262DA71C005B81BE /* AdBlockController.xib in Resources */,
+				11C03DD9262F18970098FEFE /* ContentCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11CBEBA92632C57B003165F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CBEBAE2632C57B003165F2 /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E14479E8C15926569D6BCD7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiSecure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C7009006971834E355D055 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiSecure/Pods-MiSecure-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiSecure/Pods-MiSecure-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiSecure/Pods-MiSecure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11209291262D85CA003F6BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C03DCB262EAF2E0098FEFE /* NavigationBar.swift in Sources */,
+				11090AAB263AF72A00AA5302 /* CommonViewController.swift in Sources */,
+				11C03DED262F7A4F0098FEFE /* CountriesBottomPopupController.swift in Sources */,
+				11C34642262DB323005B81BE /* MenuController.swift in Sources */,
+				11C03E0C263036C70098FEFE /* VPNCountriesController.swift in Sources */,
+				11D6D32226487E5900D8140E /* PasswordsViewController.swift in Sources */,
+				1120929D262D85CA003F6BFB /* ViewController.swift in Sources */,
+				11B6BE342633F5CE00FBCED1 /* KeychainItemAccessibility.swift in Sources */,
+				11CBEBD02632CC68003165F2 /* Constants.swift in Sources */,
+				11C03E1226303B660098FEFE /* CountryCell.swift in Sources */,
+				11C03E07263032280098FEFE /* VPNCountry.swift in Sources */,
+				11C03DB8262DD9470098FEFE /* Extension+NSObject.swift in Sources */,
+				114EC29F263B30600037C985 /* SpeedService.swift in Sources */,
+				112092B8262D88D2003F6BFB /* Pallete.swift in Sources */,
+				11B6BE2C2633F53800FBCED1 /* Configuration.swift in Sources */,
+				11C03DCF262EB5010098FEFE /* SettingItem.swift in Sources */,
+				11C34630262DA71C005B81BE /* AdBlockController.swift in Sources */,
+				11C03DD8262F18970098FEFE /* ContentCell.swift in Sources */,
+				11209299262D85CA003F6BFB /* AppDelegate.swift in Sources */,
+				11C03DB1262DC4490098FEFE /* MenuCell.swift in Sources */,
+				11C03DDD262F65C00098FEFE /* DetailView.swift in Sources */,
+				112092BC262D8A08003F6BFB /* Extension+UIColor.swift in Sources */,
+				11C03DC6262DE0D10098FEFE /* SwitchView.swift in Sources */,
+				11E0D900264AC316008331AA /* PinService.swift in Sources */,
+				11C03DF2263016AE0098FEFE /* Extension+Storyboard.swift in Sources */,
+				11D6D32B264884B000D8140E /* PasswordStorage.swift in Sources */,
+				11B6BE282633F4FD00FBCED1 /* Observer.swift in Sources */,
+				11C03DD3262EB5610098FEFE /* SettingsStorageService.swift in Sources */,
+				11E0D902264AC33A008331AA /* String+Extension.swift in Sources */,
+				11C03DC1262DDF8D0098FEFE /* ContainerCell.swift in Sources */,
+				11C03DF7263017030098FEFE /* VPNConnectView.swift in Sources */,
+				11B6BE302633F58000FBCED1 /* KeychainWrapper.swift in Sources */,
+				11C34623262DA161005B81BE /* SegmentView.swift in Sources */,
+				11C03DE2262F6C0C0098FEFE /* FilterViewController.swift in Sources */,
+				114EC2A5263B3D560037C985 /* Extension+Double.swift in Sources */,
+				11C03DBC262DDEA00098FEFE /* SettingsViewController.swift in Sources */,
+				11D6D327264883AD00D8140E /* PasswordsCell.swift in Sources */,
+				112092C0262D8B56003F6BFB /* MainController.swift in Sources */,
+				11B6BE222633F4CA00FBCED1 /* VPNManager.swift in Sources */,
+				11CBEBD62632CD00003165F2 /* AdBlockService.swift in Sources */,
+				11E0D8FE264AC2D6008331AA /* InputPinViewController.swift in Sources */,
+				11C03DB5262DC92B0098FEFE /* MenuItem.swift in Sources */,
+				11C34629262DA6FD005B81BE /* VPNController.swift in Sources */,
+				11C3461F262D969C005B81BE /* Layout.swift in Sources */,
+				11C03DFF2630303A0098FEFE /* VPNButtonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11CBEBA72632C57B003165F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CBEBB02632C57B003165F2 /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11CBEBB32632C57B003165F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11CBEBAA2632C57B003165F2 /* MiSecureAdBlock */;
+			targetProxy = 11CBEBB22632C57B003165F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1120929E262D85CA003F6BFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1120929F262D85CA003F6BFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		112092A3262D85CB003F6BFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112092A4262D85CB003F6BFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		112092A7262D85CB003F6BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		112092A8262D85CB003F6BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		112092AA262D85CB003F6BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F7D4C6BE1E07E4394152C12 /* Pods-MiSecure.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EnigmaDefense/EnigmaDefense.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = 5WAB2Z966T;
+				INFOPLIST_FILE = EnigmaDefense/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abugaev.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		112092AB262D85CB003F6BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 192CC0DCF78B133F74C8BDBF /* Pods-MiSecure.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EnigmaDefense/EnigmaDefense.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = 5WAB2Z966T;
+				INFOPLIST_FILE = EnigmaDefense/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abugaev.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		11CBEBB62632C57B003165F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = EnigmaDefenseAdBlock/EnigmaDefenseAdBlock.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = 5WAB2Z966T;
+				INFOPLIST_FILE = EnigmaDefenseAdBlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abugaev.app.adblock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		11CBEBB72632C57B003165F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = EnigmaDefenseAdBlock/EnigmaDefenseAdBlock.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = 5WAB2Z966T;
+				INFOPLIST_FILE = EnigmaDefenseAdBlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abugaev.app.adblock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11209290262D85CA003F6BFB /* Build configuration list for PBXProject "MiSecure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112092A7262D85CB003F6BFB /* Debug */,
+				112092A8262D85CB003F6BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112092A9262D85CB003F6BFB /* Build configuration list for PBXNativeTarget "MiSecure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112092AA262D85CB003F6BFB /* Debug */,
+				112092AB262D85CB003F6BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11CBEBB82632C57B003165F2 /* Build configuration list for PBXNativeTarget "MiSecureAdBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11CBEBB62632C57B003165F2 /* Debug */,
+				11CBEBB72632C57B003165F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1120928D262D85CA003F6BFB /* Project object */;
+}

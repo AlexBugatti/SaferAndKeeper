@@ -1,0 +1,24 @@
+PODS:
+  - BottomPopup (0.6.0)
+  - SideMenu (6.5.0)
+  - SwipeMenuViewController (4.1.0)
+
+DEPENDENCIES:
+  - BottomPopup
+  - SideMenu
+  - SwipeMenuViewController
+
+SPEC REPOS:
+  trunk:
+    - BottomPopup
+    - SideMenu
+    - SwipeMenuViewController
+
+SPEC CHECKSUMS:
+  BottomPopup: 1d5649a3b29396238f0e8f3c82075a7bfcf37ba7
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SwipeMenuViewController: 94fac81cc192d9f08f218fe4c0c853569b735e1f
+
+PODFILE CHECKSUM: 5c4c55cb85f251ef612a688b0b6d5e785c2e3c4f
+
+COCOAPODS: 1.10.1
